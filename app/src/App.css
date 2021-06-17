@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .App {
   max-width: 374px;
 }
@@ -32,9 +36,6 @@
   }
 }
 
-
-.campaign-wrapper {
-}
 
 .header-wrapper {
   display: flex;
@@ -73,13 +74,10 @@
   padding: 2vh;
 }
 
-.media-object-wrapper {
-}
 
 .scroller-wrapper {
   display: flex;
   overflow: auto;
-  overflow-y: hidden;
 }
 
 .cover-photo {
