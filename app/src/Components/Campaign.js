@@ -5,11 +5,18 @@ import CampaignHeader from './MediaComponents/CampaignHeader';
 import MediaControl from './MediaComponents/MediaScroll/MediaControl';
 import MediaScroller from './MediaComponents/MediaScroll/MediaScroller';
 
-const Campaign = () => {
+const Campaign = ({ campaignData }) => {
+
     return (
         <div>
-            <CampaignHeader />
-            <MediaScroller />
+            <CampaignHeader 
+                iconUrl={campaignData.campaign_icon_url} 
+                name={campaignData.campaign_name} 
+                payPerInstall={campaignData.pay_per_install}
+                />
+            <MediaScroller 
+                medias={campaignData.medias}
+            />
             <MediaControl />
         </div>
     );

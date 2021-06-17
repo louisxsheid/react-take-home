@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  max-width: 50vh;
 }
 
 .App-logo {
@@ -30,4 +30,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.campaign-wrapper {
+  border: 1px solid black;
+}
+
+.header-wrapper {
+  display: flex;
+  border: 1px solid blue;
+}
+
+.icon {
+  border-radius: 30%;
+  width: 8vh;
+  padding: 1vh;
+}
+
+.header-pay {
+  display: flex;
+  color: green;
+  font-size: 1.2rem;
+}
+
+.header-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 1vh;
+}
+
+.header-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+  justify-content: center;
+}
+
+.plugs {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
 }
