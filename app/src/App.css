@@ -1,5 +1,5 @@
 .App {
-  max-width: 50vh;
+  max-width: 374px;
 }
 
 .App-logo {
@@ -34,12 +34,12 @@
 
 
 .campaign-wrapper {
-  border: 1px solid black;
 }
 
 .header-wrapper {
   display: flex;
-  border: 1px solid blue;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .icon {
@@ -71,4 +71,37 @@
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
+}
+
+.media-object-wrapper {
+}
+
+.scroller-wrapper {
+  display: flex;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.cover-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  width: 15vh;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.video {
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.play-button {
+  height: 3.5vh;
+  display: block;
+  margin: 0;
+
 }

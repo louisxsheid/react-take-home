@@ -2,7 +2,6 @@
 // Encapsulating all MediaComponents
 import React from 'react'
 import CampaignHeader from './MediaComponents/CampaignHeader';
-import MediaControl from './MediaComponents/MediaScroll/MediaControl';
 import MediaScroller from './MediaComponents/MediaScroll/MediaScroller';
 
 const Campaign = ({ campaignData }) => {
@@ -17,7 +16,6 @@ const Campaign = ({ campaignData }) => {
             <MediaScroller 
                 medias={campaignData.medias}
             />
-            <MediaControl />
         </div>
     );
 };
