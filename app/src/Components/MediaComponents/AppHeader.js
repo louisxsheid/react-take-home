@@ -1,1 +1,0 @@
-// Component holding the campaign's icon, name, and campaign data (pay_per_install)
