@@ -1,0 +1,1 @@
+// Component containing the preview of the media object and it's media_type

@@ -1,0 +1,1 @@
+// Component containing the logic for downloading and copying the link and media itself respectively
